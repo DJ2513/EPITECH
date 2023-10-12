@@ -74,7 +74,7 @@ int main(int argc, char *argv[]) {
                 printf("|");
                 for (int j = 0; j < 4; j++) {
                     if(gridChain[i*4+j] == '\0'){
-                        printf("    ");
+                        printf("   ");
                     }else {
                         if (gridChain[i * 4 + j] == word[cont]) {
                             printf(" %c ", gridChain[i * 4 + j] - 32);
